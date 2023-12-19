@@ -113,7 +113,7 @@ header .btn::before{
     bottom: 0;
     opacity: 0;
     content: '';
-    background-color: #4A0404;
+    background-color: #960018;
 }
 header .btn:hover:before{
     transition: 0.5s all ease;
