@@ -69,7 +69,7 @@ header{
     background-size: cover;
     color: #fff;
 position:relative;
-overflow-x:none;
+overflow-x:hidden;
 }
 header h3,p{
     margin-bottom: 20px;
@@ -134,8 +134,8 @@ header .btn:hover:before{
     position: absolute;
     top: 50%;
     bottom: 50%;
-    left: 5%;
-    right: 5%;
+    left: 0%;
+    right: 0%;
 }
 .scroller i{
     cursor: pointer;
