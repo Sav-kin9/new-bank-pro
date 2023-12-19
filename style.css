@@ -1,0 +1,137 @@
+@import url(https://db.onlinewebfonts.com/c/6642d3e425dfb5cfda0f5e140c497d24?family=Charlotte+Sans+Std+Book);
+@font-face {
+    font-family: "Charlotte Sans Std Book";
+    src: url("https://db.onlinewebfonts.com/t/6642d3e425dfb5cfda0f5e140c497d24.eot");
+    src: url("https://db.onlinewebfonts.com/t/6642d3e425dfb5cfda0f5e140c497d24.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6642d3e425dfb5cfda0f5e140c497d24.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6642d3e425dfb5cfda0f5e140c497d24.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6642d3e425dfb5cfda0f5e140c497d24.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6642d3e425dfb5cfda0f5e140c497d24.svg#Charlotte Sans Std Book")format("svg");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: "Charlotte Sans Std Book";
+}
+
+/* NAVLINKS */
+
+.navlinks{
+    width: 100vw;
+    height: 80px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+}
+.navlinks i{
+    font-size: 30px;
+    font-weight: lighter;
+    color: lightgrey;
+    margin: auto 10px;
+}
+.navlinks a .fa-search{
+    font-size: 22px;
+    color: #fff;
+}
+.navlinks a img{
+    width: 60px;
+}
+
+/* SLIDER */
+
+.scroller{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 30%;
+    bottom: 70%;
+    left: 0;
+    right: 0;
+}
+.scroller i{
+    cursor: pointer;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 80vh;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('img/IMG_3474.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+header h3,p{
+    margin-bottom: 20px;
+}
+header h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+header p{
+    font-size: 16px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    padding-left: 2em;
+    padding-right: 2rem;
+}
+header .btn{
+    width: 200px;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid #000;
+    text-align: center;
+    margin: 0.1px auto;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    outline: none;
+    transition: ease-out .2s;
+    position: relative;
+    z-index: 1;
+}
+header .btn:hover{
+    border: 7px solid transparent;
+    color: #fff;
+}
+header .btn::before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #4A0404;
+}
+header .btn:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
