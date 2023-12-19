@@ -138,5 +138,8 @@ header .btn:hover:before{
     right: 0%;
 }
 .scroller i{
+background-color:red;
+border-radius:50%;
+padding:3px;
     cursor: pointer;
 }
