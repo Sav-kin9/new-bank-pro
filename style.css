@@ -56,7 +56,7 @@ z-index:5;
 /* HEADER */
 
 header{
-    width: 100%;
+    width: 100vw;
     height: 80vh;
     padding: 50px;
     text-align: center;
@@ -69,6 +69,7 @@ header{
     background-size: cover;
     color: #fff;
 position:relative;
+overflow-x:none;
 }
 header h3,p{
     margin-bottom: 20px;
