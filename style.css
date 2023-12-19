@@ -127,8 +127,6 @@ header .btn:hover:before{
     width: 100%;
     margin: 0;
     padding: 10px;
-padding-right:15px;
-padding-left:15px;
     display: flex;
     justify-content: space-between;
     position: absolute;
