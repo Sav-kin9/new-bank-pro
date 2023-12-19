@@ -43,7 +43,7 @@ z-index:5;
     color: lightgrey;
     margin: auto 10px;
 }
-.navlinks a .fa-search{
+.navlinks .fa-tools a .fa-search{
     font-size: 22px;
     color: #fff;
 }
