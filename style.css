@@ -50,23 +50,7 @@ body{
     width: 60px;
 }
 
-/* SLIDER */
 
-.scroller{
-    width: 100%;
-    margin: 0;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    left: 0;
-    right: 0;
-}
-.scroller i{
-    cursor: pointer;
-}
 
 /* HEADER */
 
@@ -135,4 +119,22 @@ header .btn:hover:before{
     right: 0;
     opacity: 1;
     z-index: -1;
+}
+
+/* SLIDER */
+
+.scroller{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+}
+.scroller i{
+    cursor: pointer;
 }
