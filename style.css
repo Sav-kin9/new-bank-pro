@@ -58,9 +58,9 @@ body{
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
+    position: fixed;
+    top: 30%;
+    bottom: 70%;
     left: 0;
     right: 0;
 }
@@ -83,7 +83,6 @@ header{
     background-position: center;
     background-size: cover;
     color: #fff;
-position: relative;
 }
 header h3,p{
     margin-bottom: 20px;
