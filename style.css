@@ -78,6 +78,13 @@ ul.account_options_menu li a{
     justify-content: space-between;
     background-color: var(--white);
 }
+.hamburger_container .logo_container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
 .hamburger_container a.logo{
     height: 100%;
     margin: auto 0px;
