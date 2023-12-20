@@ -136,8 +136,8 @@ header .btn:hover:before{
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 50%;
-    bottom: 50%;
+    top: 30%;
+    bottom: 70%;
     left: 0%;
     right: 0%;
 }
