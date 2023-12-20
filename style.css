@@ -142,8 +142,6 @@ header .btn:hover:before{
     right: 0%;
 }
 .scroller i{
-text-align:center;
-padding:10px;
 font-size:18px;
     cursor: pointer;
 transition:ease-in .2s;
