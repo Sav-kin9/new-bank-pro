@@ -102,6 +102,8 @@ ul.account_options_menu li a{
 }
 .hamburger_container .fa-tools a{
     text-decoration: none;
+    color: var(--blue);
+    font-size: 20px;
 }
 
 
