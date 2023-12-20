@@ -144,6 +144,7 @@ header .btn:hover:before{
 .scroller i{
 font-size:18px;
     cursor: pointer;
+transition:ease-in .3s;
 }
 .scroller i:hover{
 color:var(--blue);
