@@ -145,3 +145,7 @@ header .btn:hover:before{
 font-size:18px;
     cursor: pointer;
 }
+.scroller i:hover{
+color:var(--blue);
+    font-size:22px;
+}
