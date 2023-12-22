@@ -1,0 +1,35 @@
+.btn{
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #000;
+    text-align: center;
+    margin: 0.1px auto;
+    letter-spacing: 2px;
+    outline: none;
+    transition: ease-out .2s;
+    position: relative;
+    z-index: 1;
+}
+.btn:hover{
+    border: 7px solid transparent;
+    color: var(--white);
+}
+.btn::before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: var(--blue);
+}
+header .btn:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
