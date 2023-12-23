@@ -113,3 +113,26 @@ header p{
 }
 
 /* HEADER ENDS */
+
+/* SECTION BEGINS */
+
+section#card_1{
+    width: 100vw;
+    min-height: 300vh;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card_container{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+}
+.card_container i{
+    color: var(--white);
+    background-color: var(--blue);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50%;
+}
